@@ -62,7 +62,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		if(k == KeyEvent.VK_DOWN) down = true;
 		if(k == KeyEvent.VK_LEFT) left = true;
 		if(k == KeyEvent.VK_RIGHT) right = true;
-		if(k == KeyEvent.VK_ENTER) start = true;
+		if(k == KeyEvent.VK_SPACE) start = true;
 		
 	}
 
@@ -74,7 +74,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		if(k == KeyEvent.VK_DOWN) down = false;
 		if(k == KeyEvent.VK_LEFT) left = false;
 		if(k == KeyEvent.VK_RIGHT) right = false;
-		if(k == KeyEvent.VK_ENTER) start = false;
+		if(k == KeyEvent.VK_SPACE) start = false;
 
 	}
 
